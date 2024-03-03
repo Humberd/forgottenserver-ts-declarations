@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": [
+      "ESNext",
+      "ES2023"
+    ],
+    "moduleResolution": "Node",
+    "rootDir": "./ts-lua",
+    "outDir": "./ts-lua-out",
+    "strict": true,
+  },
+  "include": [
+    "./ts-lua/**/*.ts",
+    "src/**/*.d.ts"
+  ],
+}
