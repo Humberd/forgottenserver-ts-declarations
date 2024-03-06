@@ -4,7 +4,7 @@ declare global {
     (this: void, uid: number): Item | null;
   };
 
-  interface Item extends Thing, _ItemLuaLib {
+  interface Item extends Thing {
     get uid(): number;
 
     get itemid(): number;
@@ -132,11 +132,6 @@ declare global {
 
     // item:getBoostPercent(combatType[, total = true])
     getBoostPercent(combatType: CombatType, total?: boolean): number;
-  }
-
-  // METHODS DEFINED IN LUA SCRIPTS
-  interface _ItemLuaLib {
-    getType(): ItemType;
   }
 
   interface Reflect {

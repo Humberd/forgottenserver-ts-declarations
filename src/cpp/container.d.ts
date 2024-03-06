@@ -4,7 +4,7 @@ declare global {
     (this: void, uid: number): Container | null
   }
 
-  interface Container extends Item, _ContainerLuaLib {
+  interface Container extends Item {
     // container:getSize()
     getSize(): number;
 
@@ -31,10 +31,6 @@ declare global {
 
     // container:getCorpseOwner()
     getCorpseOwner(): number;
-  }
-
-  interface _ContainerLuaLib {
-    createLootItem(item: Item): boolean;
   }
 }
 

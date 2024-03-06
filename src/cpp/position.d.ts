@@ -6,7 +6,7 @@ declare global {
     (this: void, position: Position): Position
   };
 
-  interface Position extends _PositionLuaLib {
+  interface Position {
     get x(): number;
 
     set x(value: number);
@@ -31,16 +31,6 @@ declare global {
 
     // position:sendDistanceEffect(positionEx, distanceEffect[, player = nullptr])
     sendDistanceEffect(positionEx: Position, shootType: ShootType, player?: Player): boolean;
-  }
-
-  interface _PositionLuaLib {
-    getNextPosition(direction: Direction, steps?: number): Position;
-
-    moveUpstairs(): Position;
-
-    isInRange(from: Position, to: Position): boolean;
-
-    notifySummonAppear(summon: Monster): void;
   }
 
   /** @compileMembersOnly */
