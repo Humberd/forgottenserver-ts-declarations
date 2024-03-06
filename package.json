@@ -1,6 +1,6 @@
 {
   "name": "forgottenserver-ts-declarations",
-  "version": "1.4.2-0",
+  "version": "1.4.2-1",
   "description": "TypeScript declaration files for The Forgotten Server, bridging C++ and Lua codebases for enhanced development efficiency.",
   "main": "index.js",
   "scripts": {},
