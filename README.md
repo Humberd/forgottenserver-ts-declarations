@@ -106,4 +106,4 @@ This project includes TypeScript declaration files in two directories for type d
 
 ## Contributing
 
-Pull requests are welcome.
+Pull requests are welcomed.
