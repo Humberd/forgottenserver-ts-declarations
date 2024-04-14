@@ -5,6 +5,8 @@
 Typescript declaration files
 for [The Forgotten Server 1.4.2](https://github.com/otland/forgottenserver/releases/tag/v1.4.2).
 
+Works together with https://github.com/Humberd/forgottenserver-ts-scripting
+
 ## Installation
 
 ```bash
